@@ -1,0 +1,186 @@
+
+.top-header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    flex: 1;
+    background-color: #fff7e6;
+}
+
+.top-header-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.top-header-items p {
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.bottom-header-top-container {
+
+}
+
+.bottom-header-container {
+    height: 90px;
+    background-color: #f7bb4d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.bottom-header-logo {
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.bottom-header-items-container {
+    flex: 1;
+}
+
+.bottom-header-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-shrink: 1;
+}
+.outer-banner-container
+
+.banner-container {
+   display: flex;
+   flex-direction: row;
+}
+
+.banner {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff7e6;
+}
+
+.banner-text {
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 50px;
+    width: 800px;
+}
+
+.banner-image-left {
+    width: 1500px;
+    object-fit: cover;
+    object-position: left;
+    border: none;
+    opacity: .04;
+}
+
+.banner-image-right {
+    flex: 1;
+    object-position: right;
+    object-fit: cover;
+    padding-left: 1px;
+    border-radius: 500px;
+    margin-left: -350px;
+    opacity: .5;
+    border: none;
+}
+
+.gospel-container {
+    padding-top: 40px;
+}
+
+.gospel-head {
+    display: flex;
+    flex-direction: row;
+    padding-left: 60px;
+    margin-bottom: 30px;
+}
+
+.gospel-head p {
+    font-size: 30px;
+}
+
+.gospel-info-container {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.gospel-info {
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    margin-left: 60px;
+}
+
+.gospel-info p {
+    font-size: 30px;
+    margin-bottom: 4px;
+}
+
+.gospel-cap {
+    color: #f7bb4d;
+    font-weight: bold;
+}
+
+.gospel-bold {
+    font-weight: bold;
+}
+
+.mission-container {
+    background-color: #fff7e6;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.footer-top-container {
+    height: 100%;
+    background-color: #f7bb4d;
+    
+}
+
+.learn-more-text {
+    padding-top: 40px;
+    font-size: 24px;
+    width: 400px;
+    margin-left: 40px;
+}
+
+.footer-top {
+    margin-top: 45px;
+    display: grid;
+    grid-template-rows:repeat(3,65px);
+    grid-auto-flow: column; 
+    column-gap:1rem;
+    row-gap:5px;
+}
+
+.footer-button{
+    flex-shrink:none;
+    height: 40px;
+    background:white;
+    margin-right:20px;
+    margin-bottom:10px;
+    width: 400px;
+    margin-left: 40px;
+    border: none;
+    border-radius: 200px;
+    font-size: 15px;
+    cursor: pointer;
+}
